@@ -10,7 +10,7 @@ const randSquashMsg = () => {
         "It tastes better if it's squashed"
     ];
 
-    return msgs[Math.trunc(Math.random() * msgs.length + 1)];
+    return msgs[Math.trunc(Math.random() * msgs.length)];
 };
 
 document.getElementsByClassName("merge-button")[0].addEventListener(
